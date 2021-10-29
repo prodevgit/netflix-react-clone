@@ -17,7 +17,7 @@ export function getTvShows() {
       });
     });
     fetchTvShowsGrid().then(data => {
-      const TVGridData = data.map(({ results }) => results[0]);
+      const TVGridData = data.data.map(({ results }) => results[0]);
       var newArray = Array.prototype.concat.apply([], TVGridData);
       dispatch({
         type: TVActionTypes.SET_TV_GRID_DATA,

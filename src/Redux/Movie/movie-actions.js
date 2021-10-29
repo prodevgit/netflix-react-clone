@@ -22,7 +22,7 @@ export function getMovies() {
       });
     });
     fetchGrid().then(data => {
-      const movieGridData = data.map(({ results }) => results[0]);
+      const movieGridData = data.data.map(({ results }) => results[0]);
       var newArray = Array.prototype.concat.apply([], movieGridData);
       dispatch({
         type: MovieActionTypes.SET_MOVIE_GRID_DATA,
