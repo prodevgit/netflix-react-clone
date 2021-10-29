@@ -26,7 +26,7 @@ const CollectionItem = ({ item,movies,tvshow,history}) => {
         />
         <div className="collection-item__text">
           <h1 className="collection-item__title">{title}</h1>
-          <h1 className="collection-item__title">{name}</h1>
+          {/* <h1 className="collection-item__title">{name}</h1> */}
           <span className="collection-item__overview">{para}</span>
         </div>
       </div>

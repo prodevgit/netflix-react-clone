@@ -31,6 +31,7 @@ class ItemPage extends React.Component {
 
   render() {
     const { item, movies, tvshow } = this.props;
+    console.log(item.stream_link)
     const {
       title,
       name,
@@ -66,7 +67,7 @@ class ItemPage extends React.Component {
                     <img src={star} alt="imdb" className="item-rating__star" />
                   </div>
                   <h1 className="item__cast-title">Cast</h1>
-                  {/* <ReactNetflixPlayer src="https://fs5.cdnrobot.xyz/31L87/yt1s.com_-_The_Lost_Pirate_Kingdom__Official_Trailer__Netflix.mp4?download_token=6d13efe1cf15e572b761599703aa69a0afe6d576baa594d59e0442c4b54f2364"/> */}
+                  <ReactNetflixPlayer src={item.stream_link}/>
                   <ItemPageFooter movies={movies} tvshow={tvshow} item={item} />
                 </div>
               </div>

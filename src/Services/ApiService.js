@@ -40,6 +40,10 @@ export default class Api {
     return this.init().get('admin/movie/latest');
   }
 
+  getMoviePopular = () => {
+    return this.init().get('admin/movie/popular');
+  }
+
   getUserList = (params) => {
     return this.init().get("/users", { params: params });
   };
