@@ -5,12 +5,12 @@ export default class Api {
   constructor() {
     this.api_token = null;
     this.client = null;
-    this.api_url = 'http://localhost:8000/api/v1';
+    this.api_url = process.env.REACT_APP_BASE_URL;
   }
 
   init = () => {
     // this.api_token = getCookie("ACCESS_TOKEN");
-    this.api_token = "ddff57a2d4c53a9e666ae8e6eab6b0a6c84be13d"
+    this.api_token = "b2e448e8d0683bf3a0ff2ad3ca179ca59ffbf89d"
     let headers = {
       Accept: "application/json",
     };
