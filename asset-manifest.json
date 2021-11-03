@@ -6,12 +6,12 @@
     "static/js/1.6cefb084.chunk.js": "/netflix-react-clone/static/js/1.6cefb084.chunk.js",
     "static/js/1.6cefb084.chunk.js.map": "/netflix-react-clone/static/js/1.6cefb084.chunk.js.map",
     "main.css": "/netflix-react-clone/static/css/main.88f606b0.chunk.css",
-    "main.js": "/netflix-react-clone/static/js/main.f5a122fd.chunk.js",
-    "main.js.map": "/netflix-react-clone/static/js/main.f5a122fd.chunk.js.map",
+    "main.js": "/netflix-react-clone/static/js/main.a98cd501.chunk.js",
+    "main.js.map": "/netflix-react-clone/static/js/main.a98cd501.chunk.js.map",
     "runtime-main.js": "/netflix-react-clone/static/js/runtime-main.b897c8b9.js",
     "runtime-main.js.map": "/netflix-react-clone/static/js/runtime-main.b897c8b9.js.map",
-    "static/js/4.d48df4bc.chunk.js": "/netflix-react-clone/static/js/4.d48df4bc.chunk.js",
-    "static/js/4.d48df4bc.chunk.js.map": "/netflix-react-clone/static/js/4.d48df4bc.chunk.js.map",
+    "static/js/4.08d470a8.chunk.js": "/netflix-react-clone/static/js/4.08d470a8.chunk.js",
+    "static/js/4.08d470a8.chunk.js.map": "/netflix-react-clone/static/js/4.08d470a8.chunk.js.map",
     "static/css/5.1d6c5d64.chunk.css": "/netflix-react-clone/static/css/5.1d6c5d64.chunk.css",
     "static/js/5.b87ed978.chunk.js": "/netflix-react-clone/static/js/5.b87ed978.chunk.js",
     "static/js/5.b87ed978.chunk.js.map": "/netflix-react-clone/static/js/5.b87ed978.chunk.js.map",
@@ -32,7 +32,7 @@
     "static/css/8.b22a5085.chunk.css.map": "/netflix-react-clone/static/css/8.b22a5085.chunk.css.map",
     "static/css/main.88f606b0.chunk.css.map": "/netflix-react-clone/static/css/main.88f606b0.chunk.css.map",
     "static/js/0.c793a416.chunk.js.LICENSE.txt": "/netflix-react-clone/static/js/0.c793a416.chunk.js.LICENSE.txt",
-    "static/js/4.d48df4bc.chunk.js.LICENSE.txt": "/netflix-react-clone/static/js/4.d48df4bc.chunk.js.LICENSE.txt",
+    "static/js/4.08d470a8.chunk.js.LICENSE.txt": "/netflix-react-clone/static/js/4.08d470a8.chunk.js.LICENSE.txt",
     "static/media/AIMsqmnV.f2cd6c4c.mp3": "/netflix-react-clone/static/media/AIMsqmnV.f2cd6c4c.mp3",
     "static/media/Background.b25a4267.jpg": "/netflix-react-clone/static/media/Background.b25a4267.jpg",
     "static/media/cHBfBHfv.0f371e57.mp3": "/netflix-react-clone/static/media/cHBfBHfv.0f371e57.mp3",
@@ -44,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b897c8b9.js",
-    "static/js/4.d48df4bc.chunk.js",
+    "static/js/4.08d470a8.chunk.js",
     "static/css/main.88f606b0.chunk.css",
-    "static/js/main.f5a122fd.chunk.js"
+    "static/js/main.a98cd501.chunk.js"
   ]
 }
